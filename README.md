@@ -1,8 +1,5 @@
 
-# Automatic forest road extraction from LiDAR data using a convolutional neural network
-
-
-## Introduction
+# Light-DDCM-Net
 
 Implementation of the architectures described in the paper _Automatic forest road extraction from LiDAR data using a convolutional neural network_
 
@@ -129,7 +126,7 @@ Subdivided according to the architecture and model names
 
 _example_ : `./predictions/unet/my_model/...)`
 
-**Fichiers**
+**Files**
 
 According to the chosen parameters, the following images can be produced : 
 
