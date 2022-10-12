@@ -1,9 +1,6 @@
 
 # Light-DDCM-Net
 
-
-## Introduction
-
 Implementation of the architectures described in the paper _Automatic forest road extraction from LiDAR data using a convolutional neural network_
 
 The L-DDCM-Net architectures are based on the DDCM-net architecture described in _Dense Dilated Convolutions Merging Network for Semantic Mapping of Remote Sensing Images_	https://doi.org/10.48550/arXiv.1908.11799
