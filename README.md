@@ -85,7 +85,7 @@ center line image for gris-mouton sector : `data/grismouton/grismouton_roads-1px
 
 **Provided images**
 
-	slope 						slope shadiing of the DTM
+	slope 						slope shading of the DTM
 
 	city-mask 				binary mask hiding urban areas
 
