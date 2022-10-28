@@ -1,5 +1,6 @@
 
 """ Create project structure """
+import os
 
 paths = [
 	"../data/cuveaux",
