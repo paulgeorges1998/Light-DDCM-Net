@@ -15,6 +15,8 @@ The LiDAR data used to create the training images were acquired in the scope of 
 - keras==2.8.0
 - numpy==1.17.4
 - opencv_python_headless==4.6.0.66
+- opencv-python == 4.6.0.66
+- opencv-contrib-python == 4.6.0.66
 - scikit_learn==1.1.2
 - tensorflow==2.8.0
 - tensorflow_addons==0.16.1
