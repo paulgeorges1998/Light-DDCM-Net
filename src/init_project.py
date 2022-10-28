@@ -7,8 +7,8 @@ paths = [
 	"../data/grandrupt",
 	"../data/grismouton",
 	"../data/stmont",
-	"../models/ddcm",
-	"../models/unet",
+#	"../models/ddcm",
+#	"../models/unet",
 	"../predictions/ddcm",
 	"../predictions/unet"
 ]

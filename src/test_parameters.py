@@ -4,6 +4,10 @@
 TEST_RESULTS_DIR = "../predictions/"              				# directory where predictions are saved
 
 TEST_MODEL = "unet/unet-amrel-processed-grismouton"				# name of the model to evaluate
+#TEST_MODEL = "ddcm/ddcm-amrel-processed-grismouton"			
+#TEST_MODEL = "ddcm/ddcm-cbam-dc-grismouton"			
+#TEST_MODEL = "ddcm/ddcm-cbam-grismouton"			
+#TEST_MODEL = "ddcm/ddcm-roads-5px-grismouton"			
 TEST_AREA = "grismouton"										# area to test the model on 
 TEST_INPUT_TYPES = ["slope"]									# image types to use as input during evaluation (N types will be concatenated into a single N channels image)
 TEST_MASK_TYPES = ["roads-5px", "roads-1px", "roads-28px"]		# ground truth used to compute metrics : 
