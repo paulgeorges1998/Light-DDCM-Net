@@ -150,9 +150,9 @@ def reconstruct_images(tiled_images, area_dimensions):
 
 
 
-def save_predictions(masks, pred, area_dimensions, threshold):
+def save_predictions(masks, pred, area_dimensions, threshold, model_name):
 
-    path = TEST_RESULTS_DIR + TEST_MODEL
+    path = TEST_RESULTS_DIR + model_name
 
     # apply threshold to predicted output
     pred_mask = np.where(pred > threshold, 1., 0.)
@@ -221,7 +221,7 @@ def test_model(model_name):
 
 
     # save timer
-    save_path = TEST_RESULTS_DIR + TEST_MODEL
+    save_path = TEST_RESULTS_DIR + model_name
     print("Prediction saved in " + save_path + " directory")
     if not os.path.exists(save_path):
         os.makedirs(save_path)
@@ -250,7 +250,7 @@ def test_model(model_name):
 
     # save predicted images
     if SAVE_PREDICTION:
-        save_predictions(y_test, pred_masks, area_dimensions, threshold)
+        save_predictions(y_test, pred_masks, area_dimensions, threshold, model_name)
 
 
     print("\n---------------------------------------------------\n")
