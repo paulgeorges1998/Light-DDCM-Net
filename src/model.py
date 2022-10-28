@@ -529,7 +529,7 @@ def load_trained_model(model_name):
 
     # load trained model
     archi, name = model_name.split("/")
-    model = tf.keras.models.load_model("../models/" + archi + "/" + name + "/" + name + ".hdf5", custom_objects={"bce":loss_function,"weighted_binary_crossentropy":loss_function, "focal_loss":loss_function, "F1":F1})
+    model = tf.keras.models.load_model("../models/" + archi + "/" + name + ".hdf5", custom_objects={"bce":loss_function,"weighted_binary_crossentropy":loss_function, "focal_loss":loss_function, "F1":F1})
 
 
     return model

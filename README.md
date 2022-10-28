@@ -59,6 +59,17 @@ _See train_parameters.py to choose parameters_
 ```
 _See test_parameters.py to choose parameters_
 
+#### Test with a spectific model
+```sh
+  python3 test_model.py [model_name]
+```
+model_name can be :
+- unet/unet-amrel-processed-grismouton : for unet on grismouton sector
+- ddcm/ddcm-amrel-processed-grismouton : for ddcm on grismouton sector
+- ddcm/ddcm-cbam-dc-grismouton : for ddcm+8cbam on grismouton sector
+- dcm/ddcm-cbam-grismouton : for ddcm+3cbam on grismouton sector
+- ddcm/ddcm-roads-5px-grismouton : for ddcm trained with centerline dataset on grismouton sector
+
 
 #### Visualize metrics during training
 ```sh

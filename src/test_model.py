@@ -199,9 +199,9 @@ def save_predictions(masks, pred, area_dimensions, threshold):
 
 
 
-def test_model():
+def test_model(model_name):
 
-    model = load_trained_model(TEST_MODEL)
+    model = load_trained_model(model_name)
 
     
     # load test data
@@ -257,6 +257,9 @@ def test_model():
     print("Done.\n")
 
 
-test_model()
+model_name = TEST_MODEL
+if(len(sys.argv)>1):
+    model_name = sys.argv[1]
+test_model(model_name)
 
 
