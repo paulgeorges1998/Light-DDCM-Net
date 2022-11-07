@@ -30,7 +30,7 @@ cd src
 python3 init_project.py
 ```
 
-#### Generate ground truths images
+#### Generate ground truth images
 
 ```sh
 cd src
