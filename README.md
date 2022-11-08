@@ -50,7 +50,7 @@ ages nommées `data/SECTEUR/SECTEUR_amrel-processed.png`)
 ```sh
   python3 train.py
 ```
-_See train_parameters.py to choose parameters_
+_See train_parameters.py to choose parameters. In particular, proposed values of parameter_ TEST_MASK_TYPES _are provided to compare with different CNN architectures (table 1 of reference paper) or with AMREL software (table 2)._
 
 
 #### Test
