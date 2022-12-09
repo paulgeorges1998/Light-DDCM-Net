@@ -6,7 +6,8 @@ Implementation of the architectures described in the paper _Automatic forest roa
 The L-DDCM-Net architectures are based on the DDCM-net architecture described in _Dense Dilated Convolutions Merging Network for Semantic Mapping of Remote Sensing Images_	https://doi.org/10.48550/arXiv.1908.11799
 
 The LiDAR data used to create the training images were acquired in the scope of PCR AGER project (Projet collectif de recherche — Archéologie et GEoarchéologie du premier Remiremont et de ses abords).
-
+Contact: Charles Kraemer, Pôle Archéologique Universitaire - HISCANT-MA,
+Universit\'e de Lorraine, 91 avenue de la Libération, 54000 NANCY, France.
 
 
 ## Dependencies
