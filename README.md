@@ -21,6 +21,7 @@ Universit\'e de Lorraine, 91 avenue de la Libération, 54000 NANCY, France.
 - scikit_learn==1.1.2
 - tensorflow==2.8.0
 - tensorflow_addons==0.16.1
+- pydot==1.4.2
 
 ## Initialization (optional)
 
