@@ -7,7 +7,7 @@ The L-DDCM-Net architectures are based on the DDCM-net architecture described in
 
 The LiDAR data used to create the training images were acquired in the scope of PCR AGER project (Projet collectif de recherche — Archéologie et GEoarchéologie du premier Remiremont et de ses abords).
 Contact: Charles Kraemer, Pôle Archéologique Universitaire - HISCANT-MA,
-Universit\'e de Lorraine, 91 avenue de la Libération, 54000 NANCY, France.
+Université de Lorraine, 91 avenue de la Libération, 54000 NANCY, France.
 
 
 ## Dependencies
